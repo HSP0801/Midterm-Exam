@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: 16px/1.5 Arial, sans-serif;
+}
+
+.structural {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color:  #67174f;
+    font-size: 28px;
+}
+
+h2 {
+    color: #67174f;
+    font-size: 24px;
+}
+
+main {
+    height: 70vh;
+}
+
+img {
+    width: 90%;
+    height: 80%;
+    border: 3px solid rgb(116, 64, 97);
+}
+
+figure {
+    background-color: #9b518660;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+figure#figure1 {
+    float: left;
+}
+
+figure#figure2 {
+    float: right;
+}
+
+section {
+    clear: both;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ad6eb6;
+    padding: 5px;
+}
+
+a {
+    color: #8b6185;
+}
+
+a:hover {
+    color: #161af1;
+}
+
+ul {
+    list-style: square;
+    line-height: 1.8;
+}
+
+header,
+footer {
+    background-color: #a76699;
+}
